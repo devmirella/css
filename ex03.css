@@ -1,0 +1,31 @@
+/* Pratica 03.css */
+
+/* 1 — seletor descendente (espaço) */
+/* Todo <p> que estiver dentro de .caixa ficará azul */
+.caixa p {
+    color: rgb(9, 9, 22);
+}
+
+/* 2 — seletor filho direto (>) */
+/* Apenas <li> que são filhos diretos de .lista ficarão vermelhos */
+.lista> li {
+    color: rgb(42, 13, 13);
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+
+/* 3 — seletor de múltiplos elementos (vírgula) */
+/* estiliza em h1 e h2 */
+h1, h2 {
+    color: purple;
+}
+
+/* 4 — seletor universal (*) */
+/* Remove margens padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
