@@ -1,0 +1,24 @@
+/* ex02.css */
+
+
+/* 1 - seletor por ID */
+
+#titulo-principal {
+    color:purple;
+    font-size: 32px;
+}
+
+
+/* 2 - seletor por tag */
+
+p {
+    color:blue
+}
+
+
+/* 3 - seletor por classe */
+
+.destaque {
+    color:red;
+    font-weight: bolder;
+}
