@@ -1,0 +1,58 @@
+/* Pratica 04.css */
+
+/* Cores no CSS */
+
+/* Reset básico */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Margin geral da página */
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f4ee;
+}
+
+/* Titulo */
+h1 {
+    color: rgb(90, 20, 20);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Área geral de cada seção */
+.seccao {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Cores por nome */
+.seccao-vermelha {
+    background-color:crimson;
+    color:white;
+}
+
+/* Cores em HEX */
+.seccao-dourada {
+    background-color: #c9a635;
+    color: #3a2f06;
+}
+
+/* Cores em RGB */
+.seccao-roxa {
+    background-color: rgb(70, 0, 70);
+    color: rgb(240, 210, 255);
+}
+
+/* RGB com transparência (RGBA) */
+.seccao-noturna {
+    background-color: rgba(20, 20, 30, 0.9);
+    color:white;
+}
+
+
+
+
