@@ -1,0 +1,10 @@
+/* Pratica 05.css */
+
+/* BORDAS NO CSS */
+
+.caixa {
+    width: 500px;
+    height: 300px;
+    border: 7px dotted rgb(9, 9, 22);
+    border-radius: 30px;
+}
