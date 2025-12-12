@@ -1,0 +1,15 @@
+/* Pratica 06.css */
+
+/* MARGIN e PADDING */
+
+
+.caixa{
+    background-color: bisque;
+    width: 500px;
+    height:200px;
+    border:30px solid black;
+    padding:20px;
+    margin: 50px;
+    
+
+}
