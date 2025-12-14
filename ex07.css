@@ -1,0 +1,30 @@
+
+/* Pratica 07.css */
+
+/* display: block | inline | inline-block */
+
+.box{
+    background-color:rgb(167, 167, 210);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.block{
+    display: block;
+   
+}
+
+.inline{
+    display: inline;
+}
+
+
+.inline-block{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    
+}
+
