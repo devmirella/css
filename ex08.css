@@ -1,0 +1,31 @@
+/* Pratica 08.css */
+
+/* display: block | inline | inline-block */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block{
+    display:block;
+    background-color: aqua;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+.inline{
+    display:inline;
+    background-color: blueviolet;
+    padding: 5px;
+    
+    
+}
+
+.inline-block{
+    background-color:rgb(197, 122, 17);
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
