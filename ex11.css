@@ -1,0 +1,36 @@
+/* Pratica 11.css */
+
+/* Flexbox avançado */
+
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(177, 235, 235);
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap: 15px;
+
+    padding: 20px;
+}
+
+.card{
+    background-color: white;
+    border: 2px solid blueviolet;
+    padding: 20px;
+    text-align: center;
+
+    width: 100px;
+}
+
+
+.card2{
+    flex-grow: 2;
+}
+
+.card4{
+    flex-grow: 1;
+}
